@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.no-scrollbar {
+
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+  
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
