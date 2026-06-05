@@ -18,15 +18,6 @@ It features a **cinematic fan-style carousel**, smooth transitions, and infinite
 
 ---
 
-## 🎬 Preview
-
-### 🟣 Home – Cinematic Carousel
-![Home](https://raw.githubusercontent.com/fatima-muzafar/gallery-project/main/public/home-preview.png)
-
-### 🔵 Gallery – Infinite Scroll
-![Gallery](https://raw.githubusercontent.com/fatima-muzafar/gallery-project/main/public/gallery-preview.png)
----
-
 ## ✨ Features
 - ✔ Cinematic 3D fan-style country carousel  
 - ✔ Country-based image exploration  
