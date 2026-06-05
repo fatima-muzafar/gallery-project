@@ -1,5 +1,4 @@
 # 🌍 The World, Unfiltered
-
 > *Real places. Real moments. No filters.*
 
 A cinematic travel experience web app built with **React + Vite** that explores countries through beautiful photography using the Unsplash API.
@@ -7,14 +6,12 @@ A cinematic travel experience web app built with **React + Vite** that explores 
 ---
 
 ## ✨ Live Demo
-
-🚀 [View Live Project](https://your-live-link.com)  
-📦 [GitHub Repository](https://github.com/your-username/gallery-project)
+🚀 [View Live Project](https://gallery-project-opal.vercel.app/)  
+📦 [GitHub Repository](https://github.com/fatima-muzafar/gallery-project)
 
 ---
 
 ## 🧠 About the Project
-
 **The World, Unfiltered** is a modern travel gallery app that lets users explore countries through immersive visuals.
 
 It features a **cinematic fan-style carousel**, smooth transitions, and infinite scroll gallery — designed for a premium user experience.
@@ -24,15 +21,13 @@ It features a **cinematic fan-style carousel**, smooth transitions, and infinite
 ## 🎬 Preview
 
 ### 🟣 Home – Cinematic Carousel
-![Home](https://images.unsplash.com/photo-1501785888041-af3ef285b470)
+![Home](./public/home-preview.png)
 
 ### 🔵 Gallery – Infinite Scroll
-![Gallery](https://images.unsplash.com/photo-1524492412937-b28074a5d7da)
-
+![Gallery](./public/gallery-preview.png)
 ---
 
 ## ✨ Features
-
 - ✔ Cinematic 3D fan-style country carousel  
 - ✔ Country-based image exploration  
 - ✔ Infinite scroll gallery  
@@ -45,9 +40,8 @@ It features a **cinematic fan-style carousel**, smooth transitions, and infinite
 ---
 
 ## 🛠️ Tech Stack
-
 | Technology | Purpose |
-|------------|--------|
+|------------|---------|
 | React.js | Frontend UI |
 | Vite | Build tool |
 | Tailwind CSS | Styling |
@@ -57,3 +51,50 @@ It features a **cinematic fan-style carousel**, smooth transitions, and infinite
 ---
 
 ## 📁 Project Structure
+
+gallery-project/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Buttons.jsx
+│   │   ├── Card.jsx
+│   │   ├── CountryCard.jsx
+│   │   ├── CountryCarousel.jsx
+│   │   └── SkeletonCard.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+├── .env
+├── index.html
+└── package.json
+
+---
+
+## ⚙️ Setup & Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/fatima-muzafar/gallery-project.git
+
+# Install dependencies
+cd gallery-project
+npm install
+
+# Add your Unsplash API key
+# Create .env file and add:
+VITE_UNSPLASH_ACCESS_KEY=your_key_here
+
+# Run locally
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+| Variable | Description |
+|----------|-------------|
+| `VITE_UNSPLASH_ACCESS_KEY` | Your Unsplash API Access Key |
+
+Get your free key at [unsplash.com/developers](https://unsplash.com/developers)
